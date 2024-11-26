@@ -1,0 +1,27 @@
+{
+  "name": "collab-planner-backend",
+  "version": "1.0.0",
+  "main": "/dist/app/app.js",
+  "scripts": {
+    "dev": "ts-node-dev src/app/app.ts",
+    "build": "tsc",
+    "start": "node dist/app/app.js"
+  },
+  "keywords": ["collaboration", "planning", "backend", "TypeScript", "Node.js"],
+  "author": "Nikita Tsarenko",
+  "license": "MIT",
+  "description": "Backend API for a collaborative planning platform. Provides task management, event scheduling, and notification services with user authentication",
+  "dependencies": {
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.0",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^20.8.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  }
+}
